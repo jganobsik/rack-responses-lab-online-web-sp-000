@@ -2,7 +2,7 @@ class Application
  
   def call(env)
     resp = Rack::Response.new
-    if 
+    if time.hour 
     resp.write "Hello, World"
     else 
     
